@@ -23,6 +23,7 @@
 # print(string[0:6:] + ' ' + string)
 # string2 = 'Python'
 # print(string[0:6:] + ' ' + string2)
+# или
 # print(string.replace('Java', 'Python'))
 
 
@@ -36,36 +37,39 @@
 # print(text [::-1])
 
 # Задание 7. Ввод числа. Вывести его 10 цифру по порядку.
-# dig = input('Введите число ')
-# print(dig[10:11:])
+# digit = input('Введите число ')
+# print(digit[9:10:])
+# if len(digit) > 10:
+#    print('число содержит менее 10 цифр')
 
 # Задание 8. Код для получения первых и последних 2 символов в строке.
 # string = input('Введите текст ')
-# print(string[0] + string[1] + string[-2] + string[-1])
-# if len(string) == 2:
+# if len(string) > 2:
+#     print(string[0] + string[1] + string[-2] + string[-1])
+# elif len(string) == 2:
 #     print(string * 2)
-# if len(string) <=2:
+# elif len(string) < 2:
 #     print('Error')
 
 # Задание 9. Код для ввода числа и вывода предыдущего и следующего от него числа.
-# dig = int(input('Введите число '))
-# print(dig)
-# print(dig - 1)
-# print(dig + 1)
+# digit = int(input('Введите число '))
+# print(digit)
+# print(digit - 1)
+# print(digit + 1)
 
 # Задание 10. Ввод двух чисел, сравнение их, вывод результата.
-# dig1 = input('Введите первое число ')
-# dig2 = input('Введите второе число ')
-# if dig1 > dig2:
-#     print(dig1 + '>' + dig2)
-# if dig1 < dig2:
-#     print(dig1 + '<' + dig2)
-# if dig1 == dig2:
-#     print(dig1 + '=' + dig2)
+# digit1 = input('Введите первое число ')
+# digit2 = input('Введите второе число ')
+# if digit1 > digit2:
+#     print(digit1 + '>' + digit2)
+# elif digit1 < digit2:
+#     print(digit1 + '<' + digit2)
+# elif digit1 == digit2:
+#     print(digit1 + '=' + digit2)
 
 # Задание 11. Ввести число, определить отрицательно оно или положительно.
-# dig = (input('Введите число '))
-# if dig > '0':
+# digit = (input('Введите число '))
+# if digit > '0':
 #     print('Число положительное')
-# if dig < '0':
+# elif digit < '0':
 #     print('Число отрицательное')
